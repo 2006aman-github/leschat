@@ -1,0 +1,80 @@
+.logo{
+    display: block;
+    margin: auto;
+    width: 70px;
+    height: 70px;
+    margin-top: 20px;
+}
+body{
+    background-image: linear-gradient(to left, rgba(0, 247, 255, 0.99), rgba(0, 0, 0, .99));
+}
+.container{
+    max-width: 900px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    height: 75vh;
+    overflow: auto;
+}
+.message{
+    font-size: medium;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin: 5px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.left{
+    float: left;
+    clear: both;
+    background-color: rgb(54, 103, 248);
+
+}
+.right{
+    float: right;
+    clear: both;
+    background-color: rgb(198, 198, 199);
+}
+.center{
+    display: block;
+    margin: auto;
+    background-color: springgreen;
+    width: 200px;
+    margin-top: 10px;
+    clear: both;
+}
+.send{
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#text{
+    width: 815px;
+    height: 2rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 0px 15px 0px 15px;
+    background-color: rgb(212, 212, 212);
+}
+
+#send-msg{
+    width: 50px;
+    height: 2rem;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    background-color: rgb(177, 177, 177);
+}
+
+#send-msg:hover{
+    background-color: royalblue;
+    color: white;
+}
